@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Итоговый сайт</title>
+</head>
+<body>
+    <menu class="menu">
+        <button id="scrollButton1" class="modern-button">HyperPC</button>
+        <button id="scrollButton2" class="modern-button">О нас</button>
+        <button id="scrollButton3" class="modern-button">Плюсы</button>
+        <button id="scrollButton4" class="modern-button">Связь</button>
+        <button id="scrollButton5" class="modern-button">Товары</button>
+        <button id="scrollButton6" class="modern-button">Карта</button>
+        <button id="scrollButton7" class="modern-button">Работа</button>
+    </menu>
+    <div id="targetElement1" class="homeScreen">
+        <video autoplay muted loop src="video.mp4"></video>
+    </div>
+    <div id="targetElement2" class="aboutUs">
+        <div class="brand-header">
+            <h1 class="company-name">HyperPC</h1>
+            <div class="badge">#ТехнологииБудущего</div>
+        </div>
+        <p class="description">
+            HyperPC — российский бренд, создающий передовые игровые и рабочие станции. 
+            Инновационные решения, премиальная сборка и максимальная производительность 
+            для киберспорта, контент-креации и бизнеса. Компания основана в 2010 году и 
+            за более чем 15 лет работы зарекомендовала себя как один из лидеров на рынке 
+            игровых ПК и рабочих станций. HYPERPC выпускает игровые компьютеры, рабочие станции,
+            серверы, а также предлагает услуги кастомизации (покраска корпуса, нанесение
+            винилографии, установка кастомной системы жидкостного охлаждения). Среди серий
+             — PLAY (базовые игровые компьютеры с возможностью выбора комплектующих) и LUMEN
+            (премиальные ПК для максимальной производительности).
+        </p>
+        <img src="https://webcompany.com.br/wp-content/uploads/2025/08/2152011796.jpg" alt="">
+    </div>
+    <div id="targetElement3" class="advantage">
+    <div class="section-header">
+      <h2>Наши преимущества</h2>
+      <p>Простые решения для вашего бизнеса</p>
+    </div>
+    <div class="cards-grid">
+      <div class="cards">
+        <div class="card-icon"></div>
+        <h3>Быстрый старт</h3>
+        <p>Начинаем работу в день обращения. Готовые решения за 24 часа.</p>
+      </div>
+      <div class="cards">
+        <div class="card-icon"></div>
+        <h3>Качество</h3>
+        <p>Используем только проверенные технологии и лучшие практики.</p>
+      </div>
+      <div class="cards">
+        <div class="card-icon"></div>
+        <h3>Надёжность</h3>
+        <p>Гарантируем стабильную работу и защиту ваших данных.</p>
+      </div>
+      <div class="cards">
+        <div class="card-icon"></div>
+        <h3>Индивидуальный подход</h3>
+        <p>Учитываем все пожелания и особенности вашего бизнеса.</p>
+      </div>
+      <div class="cards">
+        <div class="card-icon"></div>
+        <h3>Поддержка 24/7</h3>
+        <p>Всегда на связи. Помогаем решить любой вопрос оперативно.</p>
+      </div>
+      <div class="cards">
+        <div class="card-icon"></div>
+        <h3>Доступные цены</h3>
+        <p>Прозрачное ценообразование без скрытых платежей.</p>
+      </div>
+    </div>
+    </div>
+    <div id="targetElement4" class="contact">
+        <h2 class="section-title">Связь с нами</h2>
+        <div class="info">
+            <div class="contact-info">
+                <div class="info-card">
+                    <div class="info-text">
+                        <h3>Телефон</h3>
+                        <p>+8 (800) 775-82-35</p>
+                        <span class="info-note">Бесплатно по России</span>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-text">
+                        <h3>Email</h3>
+                        <p>support@hyperpc.ru</p>
+                        <span class="info-note">Ответ в течение 24 часов</span>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-text">
+                        <h3>Адрес</h3>
+                        <p>г. Москва, ул. Ленина, 15</p>
+                        <span class="info-note">Пн-Пт: 10:00 - 20:00</span>
+                    </div>
+                </div>
+            </div>
+        <div id="registration" class="registration">
+        <div class="feedback-form">
+            <h2>Регистрация</h2>
+            <form action="#">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="text" placeholder="Ваша почта" required>
+                <textarea rows="5" placeholder="Сообщение с запросом" required></textarea>
+                <button id="openModal" type="submit">Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <div id="targetElement5" class="container">
+        <h1 class="title">HyperPC <span>— мощь в каждой детали</span></h1>
+        <div class="carousel-wrapper">
+            <button class="arrow arrow-left" id="prevBtn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <div class="carousel-container">
+                <div class="carousel-track" id="carouselTrack">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://hyperpc.ru/images/product/gaming-pc/play/play-7/dc-ch560/main/black/water/hyperpc-play-7-water-black-sizes-darker.jpg" alt="HyperPC NOVA">
+                        </div>
+                        <div class="card-badge">Базовый</div>
+                        <h3 class="card-title">PLAY 2 PRO</h3>
+                        <p class="card-spec">AMD Ryzen 5 7500F · GeForce RTX 5060 · 16GB Kingston FURY Beast Black</p>
+                        <div class="card-price">от 90 000 ₽</div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://hyperpc.ru/images/product/gaming-pc/play/play-x/dc-ch690-digital/main/black/water/hyperpc-play-x-black-water-sizes-darker.jpg" alt="HyperPC STRIKE">
+                        </div>
+                        <div class="card-badge">Компактный</div>
+                        <h3 class="card-title">PLAY 4 ULTRA</h3>
+                        <p class="card-spec">AMD Ryzen 7 7800X3D · GeForce RTX 5070 Ti · 32GB Kingston Fury Beast RGB</p>
+                        <div class="card-price">от 121 900 ₽</div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://hyperpc.ru/images/product/gaming-pc/lumen/lumen-7/phanteks-enthoo-evolv-s2/main/white/water/hyperpc-lumen-7-white-sizes-darker.jpg" alt="HyperPC VERTEX">
+                        </div>
+                        <div class="card-badge">Стабильный</div>
+                        <h3 class="card-title">LUMEN 6 PRO</h3>
+                        <p class="card-spec">AMD Ryzen 7 9800X3D · GeForce RTX 5070 Ti · 32GB Kingston FURY Renegade</p>
+                        <div class="card-price">от 179 990 ₽</div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://hyperpc.ru/images/product/concept/concept-5/lian-li-o11-dynamic-evo-rgb/main/white/hyperpc-concept-5-white-sizes-darker.jpg" alt="HyperPC EDGE">
+                        </div>
+                        <div class="card-badge">Игровой</div>
+                        <h3 class="card-title">LUMEN 8 ULTRA</h3>
+                        <p class="card-spec">AMD Ryzen 9 9950X3D · GeForce RTX 5090 · 64GB Kingston FURY Renegade</p>
+                        <div class="card-price">от 200 999₽</div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://hyperpc.ru/images/catalog/hardware/cases/phanteks/nv7/black/concept-white/hyperpc-evolve-concept-black-sizes-darker.jpg" alt="HyperPC CORE">
+                        </div>
+                        <div class="card-badge">Премиум</div>
+                        <h3 class="card-title">CONCEPT 7</h3>
+                        <p class="card-spec">AMD Ryzen 9 9950X3D · GeForce RTX 5090 · 64GB G.SKILL TRIDENT Z5 RGB</p>
+                        <div class="card-price">от 250 499 ₽</div>
+                    </div>
+                </div>
+            </div>
+            <button class="arrow arrow-right" id="nextBtn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+        <div class="dots" id="dotsContainer"></div>
+    </div>
+     <div id="targetElement6" class="carta">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2242.4435744986295!2d37.592171476778915!3d55.80289927310279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5360bd2069965%3A0x7e8047f163f5ba8e!2sHYPERPC!5e0!3m2!1sru!2sru!4v1777535194241!5m2!1sru!2sru" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </iframe>
+    </div>
+    <section class="stages">
+        <div id="targetElement7" class="work">
+            <h2>Как мы работаем</h2>
+            <p class="subtitle">4 простых этапа до вашего идеального ПК</p>
+
+            <div class="stages-grid">
+                <div class="stage">
+                    <h3>Консультация</h3>
+                    <p>Обсуждаем задачи и бюджет. Подбираем конфигурацию под вас.</p>
+                </div>
+
+                <div class="stage">
+                    <h3>Сборка</h3>
+                    <p>Собираем компьютер, прокладываем кабели, тестируем.</p>
+                </div>
+
+                <div class="stage">
+                    <h3>Установка ПО</h3>
+                    <p>Ставим ОС, драйверы и нужные программы.</p>
+                </div>
+
+                <div class="stage">
+                    <h3>Доставка</h3>
+                    <p>Проверяем ещё раз и отправляем к вам домой.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+     <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-col footer-col--brand">
+        <div class="footer-logo">
+          <span class="footer-logo-icon"></span>
+          <span class="footer-logo-text">HyperPC</span>
+        </div>
+        <p class="footer-description">
+          Мощные игровые компьютеры и рабочие станции для профессионалов и энтузиастов.
+        </p>
+        <div class="footer-social">
+          <a href="#" class="footer-social-link" aria-label="ВКонтакте">VK</a>
+          <a href="#" class="footer-social-link" aria-label="Telegram">TG</a>
+          <a href="#" class="footer-social-link" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h1 class="footer-title">Контакты</h1>
+        <ul class="footer-links footer-links--contacts">
+          <li>
+            <span class="contact-icon"></span>
+            <a href="tel:+78005553535">+8 (800) 775-82-35</a>
+          </li>
+          <li>
+            <span class="contact-icon"></span>
+            <a href="mailto:support@hyperpc.ru">support@hyperpc.ru</a>
+          </li>
+          <li>
+            <span class="contact-icon"></span>
+            <span>Москва, ул. Ленина 15</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 HyperPC. Все права защищены.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Политика конфиденциальности</a>
+        <a href="#">Пользовательское соглашение</a>
+      </div>
+    </div>
+  </div>
+</footer>
+    <script src="script.js"></script>
+    </body>
+    </html>
+    </section>
+    </div>
+    
